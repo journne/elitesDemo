@@ -1,0 +1,57 @@
+[
+    {
+        "card_bg":"user-card/1.jpg",
+        "avatar":"avtar/3.jpg",
+        "name" : "Mark Jecno",
+        "post" : "Manager",
+        "email" : "9564",
+        "deliveryaddress" : "49",
+        "elitesPoints" : "96"
+    },
+    {
+        "card_bg":"user-card/2.jpg",
+        "avatar":"avtar/16.jpg",
+        "name" : "Johan Deo",
+        "post" : "Designer",
+        "email" : "9564",
+        "deliveryaddress" : "49",
+        "elitesPoints" : "96"
+    },
+    {
+        "card_bg":"user-card/3.jpg",
+        "avatar":"avtar/11.jpg",
+        "name" : "Dev John",
+        "post" : "Devloper",
+        "email" : "9564",
+        "deliveryaddress" : "49",
+        "elitesPoints" : "96"
+    },
+    {
+        "card_bg":"user-card/7.jpg",
+        "avatar":"avtar/16.jpg",
+        "name" : "Johan Deo",
+        "post" : "Designer",
+        "email" : "9564",
+        "deliveryaddress" : "49",
+        "elitesPoints" : "96"
+    },
+    {
+        "card_bg":"user-card/5.jpg",
+        "avatar":"avtar/11.jpg",
+        "name" : "Dev John",
+        "post" : "Devloper",
+        "email" : "9564",
+        "deliveryaddress" : "49",
+        "elitesPoints" : "96"
+    },
+    {
+        "card_bg":"user-card/6.jpg",
+        "avatar":"avtar/3.jpg",
+        "name" : "Mark Jecno",
+        "post" : "Manager",
+        "email" : "9564",
+        "deliveryaddress" : "49",
+        "elitesPoints" : "96"
+    }
+
+]
