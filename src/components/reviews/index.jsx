@@ -9,17 +9,16 @@ import { useSelector } from 'react-redux';
 const Reviews = () => {
     return (
         <Fragment>
-            <Breadcrumb parent="reviews" title="Plans"/>
+            <Breadcrumb parent="reviews" title="Reviews"/>
             <Container fluid={true}>
                 <Row>
                     <Col sm="12">
                         <Card>
                             <CardHeader>
-                                <h5>{Recipe}</h5><span>{"Subcategory of meals"}</span>
+                                <h5>Review</h5><span>All user review</span>
 
                                     <div className="text-right">
                     <FormGroup className="mb-0 mr-0"></FormGroup>
-                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/plans/lifestyleCreate`}>{CreateARecipe}</Link>
                   </div>
                             </CardHeader>
 
@@ -30,12 +29,12 @@ const Reviews = () => {
                                         <tr>
                                             <th>{"#"}</th>
                                             <th>{"Image"}</th>
-                                            <th>{"Meal Name"}</th>
-                                            <th>{"Duration"}</th>
-                                            <th>{"Lifestyle"}</th>
-                                            <th>{"Cal per serving"}</th>
-                                            <th>{"Price per serving"}</th>
-                                            <th>{"Cuisine"}</th>
+                                            <th>{"Rating"}</th>
+                                            <th>{"Description"}</th>
+                                            <th>{"Author"}</th>
+                                            <th>{"Recipe"}</th>
+                                            <th>{"Flagged"}</th>
+                                           
                                             <th>{"Action"}</th>
                                         </tr>
                                     </thead>
@@ -43,12 +42,12 @@ const Reviews = () => {
                                         <tr>
                                             <th scope="row">{"1"}</th>
                                             <td>{"img"}</td>
-                                            <td>{"2-Person"}</td>
-                                            <td>{"Classic"}</td>
-                                            <td>{"This is for a family of 2"}</td>
-                                            <td>{"$30"}</td>
-                                            <td>{"2"}</td>
-                                            <td>{"Fresh"}</td>
+                                            <td>{"5"}</td>
+                                            <td>{"Very nice"}</td>
+                                            <td>{"Jane Doe"}</td>
+                                            <td>{"Rice Stew"}</td>
+                                           
+                                            <td>{"No"}</td>
                                             
                                             <td className="">
                             <Button color="primary" size="lg"><i className="fa fa-pencil"></i> {Edit}</Button>
@@ -57,22 +56,7 @@ const Reviews = () => {
                             <Button color="danger" size="lg"><i className="fa fa-trash"></i> {Delete}</Button>
                           </td>
                                         </tr>
-                                        <tr>
-                                            <th scope="row">{"2"}</th>
-                                            <td>{"img"}</td>
-                                            <td>{"Family Box"}</td>
-                                            <td>{"Vegetarian"}</td>
-                                            <td>{"This is for a family of 4 with vegeterian meals"}</td>
-                                            <td>{"$70"}</td>
-                                            <td>{"4"}</td>
-                                            <td>{"Cooked"}</td>
-                                            <td className="">
-                            <Button color="primary" size="lg"><i className="fa fa-pencil"></i> {Edit}</Button>
-                            <Button color="green" size="lg"><i className="fa fa-eye"></i> {View}</Button>
-                            <Button color="transparent" size="lg"><i className="fa fa-link"></i> {Update}</Button>
-                            <Button color="danger" size="lg"><i className="fa fa-trash"></i> {Delete}</Button>
-                          </td>
-                                        </tr>
+                                        
                                        
                                     </tbody>
                                 </Table>

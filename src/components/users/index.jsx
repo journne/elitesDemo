@@ -38,17 +38,17 @@ const [modal, setModal] = useState(false);
 
     return (
         <Fragment>
-            <Breadcrumb parent="users" title="Plans"/>
+            <Breadcrumb parent="users" title="All Users"/>
             <Container fluid={true}>
                 <Row>
                     <Col sm="12">
                         <Card>
                             <CardHeader>
-                                <h5>Users</h5><span>{"Subcategory of meals"}</span>
+                                <h5>Users</h5><span>Subscribed Users</span>
 
                                     <div className="text-right">
                     <FormGroup className="mb-0 mr-0"></FormGroup>
-                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/plans/lifestyleCreate`}>{CreateARecipe}</Link>
+                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/users/userCreate`}>Create A User</Link>
                   </div>
                             </CardHeader>
 

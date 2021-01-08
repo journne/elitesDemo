@@ -19,7 +19,7 @@ const Plans = () => {
 
                                     <div className="text-right">
                     <FormGroup className="mb-0 mr-0"></FormGroup>
-                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/plans/lifestyleCreate`}>{CreateAPlan}</Link>
+                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/plans/plansCreate`}>{CreateAPlan}</Link>
                   </div>
                             </CardHeader>
 

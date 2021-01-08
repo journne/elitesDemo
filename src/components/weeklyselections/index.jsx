@@ -74,7 +74,7 @@ const WeeklySelections = (props) =>  {
               <Row>
                   <Col md="12">
                   <Col sm="12 pl-0">
-                    <h5>Date</h5>
+                    <h5>Recipes</h5>
                   </Col>
                     <Label className="d-block" for="chk-ani">
                       <Input className="checkbox_animated" id="chk-ani" type="checkbox" defaultChecked/>{Option} {"1"}
@@ -91,10 +91,13 @@ const WeeklySelections = (props) =>  {
                   </Col>
                 </Row>
                
+
                 <Row>
+
                 <Col md="12">
                 <Col sm="12 pl-0">
-                    <h5>Meals</h5>
+                <h5></h5>
+                    <h5>Plans</h5>
                   </Col>
                 <div className="date-picker">
                       <Form className="theme-form">
@@ -117,6 +120,7 @@ const WeeklySelections = (props) =>  {
                 <Row>
                  <Col md="12">
                  <Col sm="12 pl-0">
+                  <h5></h5>
                     <h5>Time Frame</h5>
                   </Col>
                     <div className="date-picker">

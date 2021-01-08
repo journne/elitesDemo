@@ -9,17 +9,17 @@ import { useSelector } from 'react-redux';
 const ElitesPoints = () => {
     return (
         <Fragment>
-            <Breadcrumb parent="settings" title="Plans"/>
+            <Breadcrumb parent="settings" title="Points"/>
             <Container fluid={true}>
                 <Row>
                     <Col sm="12">
                         <Card>
                             <CardHeader>
-                                <h5>Elites Points</h5><span>{"Subcategory of meals"}</span>
+                                <h5>Elites Points</h5><span>Bonus points</span>
 
                                     <div className="text-right">
                     <FormGroup className="mb-0 mr-0"></FormGroup>
-                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/plans/lifestyleCreate`}>{CreateARecipe}</Link>
+                    <Link className="btn btn-primary" style={{ color: 'white' }} to={`${process.env.PUBLIC_URL}/app/settings/addPoints`}>Add Points</Link>
                   </div>
                             </CardHeader>
 
